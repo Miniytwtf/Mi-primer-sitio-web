@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Ejercicios de tablas con CSS</title>
+    <style>
+        .container{
+            width: 100%;
+            margin: 0 auto;
+            border: 1px solid red;
+            box-sizing: border-box;
+        }
+        .header{
+            background-color: rgb(255, 13, 13);
+            padding: 25px;
+            text-align: center;
+        }
+        .header h1{
+            color: black;
+        }
+        .footer{
+            background-color: rgb(255, 13, 13);
+            padding: 25px;
+            text-align: center;
+        }
+        .header img{
+            width: 100px;
+            height: 100px;
+            float: right;
+        }
+        .content{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .sidebar{
+            width: 10%;
+            background-color: rgb(228, 132, 8);
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .main{
+            width: 85%;
+            padding: 3rem;
+            box-sizing: border-box;
+        }
+        iframe{
+            width: 100%;
+            height: 500px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="img1.jpeg">
+            <h1>Aqui estan mis ejercicios de Desarrollo Web del 11 al 20 con CSS</h1>
+        </div>
+        <div class="content">
+            <div class="sidebar">
+               <h2>MENÚ</h2>
+                <ul>
+                   <li><a href="index.html">INICIO</a></li>
+                   <li><a href="Ejercicio de tablas con div/Ejercicio 11/Ejercicio11.html" target="ejerciciosdetablasconCSS">Ejercicio 11</a></li>
+                   <li><a href="Ejercicio de tablas con div/Ejercicio 12/Ejercicio12.html" target="ejerciciosdetablasconCSS">Ejercicio 12</a></li>
+                   <li><a href="Ejercicio de tablas con div/Ejercicio 13/Ejercicio13.html" target="ejerciciosdetablasconCSS">Ejercicio 13</a></li>
+                   <li><a href="Ejercicio de tablas con div/Ejercicio 14/Ejercicio14.html" target="ejerciciosdetablasconCSS">Ejercicio 14</a></li>
+                   <li><a href="Ejercicio de tablas con div/Ejercicio15/Ejercicio15.html" target="ejerciciosdetablasconCSS">Ejercicio 15</a></li>
+                   <li><a href="Ejercicio de tablas con div/Ejercicio 16/Ejercicio16.html" target="ejerciciosdetablasconCSS">Ejercicio 16</a></li>
+                   <li><a href="Ejercicio de tablas con div/Ejercicio 17/Ejercicio17.html" target="ejerciciosdetablasconCSS">Ejercicio 17</a></li>
+                   <li><a href="Ejercicio de tablas con div/Ejercicio 18/Ejercicio18.html" target="ejerciciosdetablasconCSS">Ejercicio 18</a></li>
+                   <li><a href="Ejercicio de tablas con div/Ejercicio 19/Ejercicio19.html" target="ejerciciosdetablasconCSS">Ejercicio 19</a></li>
+                   <li><a href="Ejercicio de tablas con div/Ejercicio 20/Ejercicio20.html" target="ejerciciosdetablasconCSS">Ejercicio 20</a></li>
+                </ul>
+           </div>
+           <div class="main">
+                 <h2>Contenido Principal</h2>
+                 <p>Bienvenidos a mis ejercicios de Desarrollo Web del 11 al 20 con CSS, a continuación seleccione que ejericio desea ver.</p>
+                <iframe name="ejerciciosdetablasconCSS"></iframe>
+            </div>
+       </div>
+       <div class="footer">
+          <p>Lenin Josue Mairena Rivas &copy; 2025</p>
+       </div>
+    </div>
+    
+</body>
+</html>
